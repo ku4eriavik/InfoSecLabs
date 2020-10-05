@@ -8,17 +8,16 @@ Course task requires testing speed on 1 GB of data. However, this implementation
 Results (alias key length parameter KL_{num} with AES-{num} algorithm):
 
 BENCHMARKING KL_128 ALGORITHM FOR 1048576 BYTES OF DATA
-Time elapsed for preprocessing: 0.2125074863433838 sec
-Time elapsed for key expansion: 0.0007627010345458984 sec
-Time elapsed for encryption-decryption: 220.04754877090454 sec
-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+  Time elapsed for preprocessing: 0.2125074863433838 sec
+  Time elapsed for key expansion: 0.0007627010345458984 sec
+  Time elapsed for encryption-decryption: 220.04754877090454 sec
+
 BENCHMARKING KL_192 ALGORITHM FOR 1048576 BYTES OF DATA
-Time elapsed for preprocessing: 0.19955182075500488 sec
-Time elapsed for key expansion: 0.0008618831634521484 sec
-Time elapsed for encryption-decryption: 263.7029974460602 sec
-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+  Time elapsed for preprocessing: 0.19955182075500488 sec
+  Time elapsed for key expansion: 0.0008618831634521484 sec
+  Time elapsed for encryption-decryption: 263.7029974460602 sec
+
 BENCHMARKING KL_256 ALGORITHM FOR 1048576 BYTES OF DATA
-Time elapsed for preprocessing: 0.2065598964691162 sec
-Time elapsed for key expansion: 0.0010020732879638672 sec
-Time elapsed for encryption-decryption: 312.02789521217346 sec
-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+  Time elapsed for preprocessing: 0.2065598964691162 sec
+  Time elapsed for key expansion: 0.0010020732879638672 sec
+  Time elapsed for encryption-decryption: 312.02789521217346 sec
