@@ -51,7 +51,7 @@ def benchmark(aes_type, data_size):
 
 
 if __name__ == '__main__':
-    d_size = 2 ** 16
+    d_size = 2 ** 20        # 1 MB :)
     benchmark(KEY_LENGTH.KL_128, d_size)
     benchmark(KEY_LENGTH.KL_192, d_size)
     benchmark(KEY_LENGTH.KL_256, d_size)
