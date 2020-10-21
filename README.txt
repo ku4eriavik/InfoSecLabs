@@ -6,6 +6,11 @@ Algorithms:
     AES
     RC4
     Salsa20
+    CBC
+    CFB
+    CTR
+    ECB
+    OFB
 
 
 Benchmarking:
@@ -59,4 +64,69 @@ Salsa20:
 	    KEY LENGTH = 32
 	    MESSAGE LENGTH = 1 MB
 	    TIME ELAPSED = 15.703863143920898 sec
+    -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+CBC:
+    BENCHMARKING CBC ON:
+	    USING AES WITH KL_128
+        MESSAGE LENGTH = 1 KB
+        TIME ELAPSED = 0.4194204807281494 sec
+    -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+    BENCHMARKING CBC ON:
+        USING AES WITH KL_128
+        MESSAGE LENGTH = 1 MB
+        TIME ELAPSED = 432.0291430950165 sec
+    -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+CFB:
+    BENCHMARKING CFB ON:
+        USING AES WITH KL_128
+        MESSAGE LENGTH = 1 KB
+        TIME ELAPSED = 0.3771383762359619 sec
+    -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+    BENCHMARKING CFB ON:
+        USING AES WITH KL_128
+        MESSAGE LENGTH = 1 MB
+        TIME ELAPSED = 403.51059689921030 sec
+    -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+CTR:
+    BENCHMARKING CTR ON:
+        USING AES WITH KL_128
+        MESSAGE LENGTH = 1 KB
+        TIME ELAPSED = 0.3824191093444824 sec
+    -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+    BENCHMARKING CTR ON:
+        USING AES WITH KL_128
+        MESSAGE LENGTH = 1 MB
+        TIME ELAPSED = 423.95244550704956 sec
+    -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+ECB:
+    BENCHMARKING ECB ON:
+        USING AES WITH KL_128
+        MESSAGE LENGTH = 1 KB
+        TIME ELAPSED = 0.4202241897583008 sec
+    -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+    BENCHMARKING ECB ON:
+        USING AES WITH KL_128
+        MESSAGE LENGTH = 1 MB
+        TIME ELAPSED = 454.52645367478989 sec
+    -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+OFB:
+    BENCHMARKING OFB ON:
+        USING AES WITH KL_128
+        MESSAGE LENGTH = 1 KB
+        TIME ELAPSED = 0.3833281993865967 sec
+    -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+    BENCHMARKING OFB ON:
+        USING AES WITH KL_128
+        MESSAGE LENGTH = 1 MB
+        TIME ELAPSED = 390.85651845151459 sec
     -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
