@@ -5,6 +5,8 @@ Current repo contains implementation for my university course practice purposes 
 Algorithms:
     AES
     RC4
+    Salsa20
+
 
 Benchmarking:
     Course task requires testing speed on 1 GB of data.
@@ -44,4 +46,17 @@ RC4:
         KEY LENGTH = 16
         MESSAGE LENGTH = 1 GB
         TIME ELAPSED = 3205.627621516160395 sec
+    -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+Salsa20:
+    BENCHMARKING Salsa20 ON:
+	    KEY LENGTH = 32
+	    MESSAGE LENGTH = 1 KB
+	    TIME ELAPSED = 0.015337467193603516 sec
+    -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+    BENCHMARKING Salsa20 ON:
+	    KEY LENGTH = 32
+	    MESSAGE LENGTH = 1 MB
+	    TIME ELAPSED = 15.703863143920898 sec
     -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
