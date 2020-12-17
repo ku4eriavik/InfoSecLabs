@@ -156,3 +156,63 @@ PROOF OF WORK:
             KUPYNA-256: 0.13105082511901855 sec.
             KUPYNA-512: 0.7406129837036133 sec.
         -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+
+RSA:
+    Length of P and Q = 384
+    Message len (bits) = 240
+    Time elapsed for key-gen: 0.39205002784729004 sec
+    Time elapsed for encryption: 0.002269268035888672 sec
+    Time elapsed for decryption: 0.0008678436279296875 sec
+    -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-
+
+    Length of P and Q = 512
+    Message len (bits) = 496
+    Time elapsed for key-gen: 0.46866822242736816 sec
+    Time elapsed for encryption: 0.00506138801574707 sec
+    Time elapsed for decryption: 0.0018527507781982422 sec
+    -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-
+
+    Length of P and Q = 1024
+    Message len (bits) = 1520
+    Time elapsed for key-gen: 2.059804677963257 sec
+    Time elapsed for encryption: 0.03414607048034668 sec
+    Time elapsed for decryption: 0.010143280029296875 sec
+    -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-
+
+    Length of P and Q = 1536
+    Message len (bits) = 2544
+    Time elapsed for key-gen: 14.759542465209961 sec
+    Time elapsed for encryption: 0.10523152351379395 sec
+    Time elapsed for decryption: 0.03050684928894043 sec
+    -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-
+
+
+RSA-OAEP:
+    Length of P and Q = 384
+    Message len (bits) = 240
+    Time elapsed for key-gen: 0.21747207641601562 sec
+    Time elapsed for encryption: 0.004578351974487305 sec
+    Time elapsed for decryption: 0.0030221939086914062 sec
+    -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-
+
+    Length of P and Q = 512
+    Message len (bits) = 496
+    Time elapsed for key-gen: 0.18386149406433105 sec
+    Time elapsed for encryption: 0.007825613021850586 sec
+    Time elapsed for decryption: 0.004800081253051758 sec
+    -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-
+
+    Length of P and Q = 1024
+    Message len (bits) = 1520
+    Time elapsed for key-gen: 1.553133249282837 sec
+    Time elapsed for encryption: 0.038727521896362305 sec
+    Time elapsed for decryption: 0.015287399291992188 sec
+    -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-
+
+    Length of P and Q = 1536
+    Message len (bits) = 2544
+    Time elapsed for key-gen: 7.0375144481658936 sec
+    Time elapsed for encryption: 0.11423087120056152 sec
+    Time elapsed for decryption: 0.03872179985046387 sec
+    -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*--*-*-*-*-*-*-*-
