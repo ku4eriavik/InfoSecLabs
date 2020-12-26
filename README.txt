@@ -16,7 +16,7 @@ Algorithms:
 Benchmarking:
     Course task requires testing speed on 1 GB of data.
     However, this implementation is slow that represents reasonable decrease in data size.
-    To be exact, 1 MB of data was used in most cases.
+    To be exact, 1 MB or 100 KB of data was used in most cases.
 
 AES:
     Results (alias key length parameter KL_{num} with AES-{num} algorithm):
@@ -35,6 +35,13 @@ AES:
       Time elapsed for key expansion: 0.0010020732879638672 sec
       Time elapsed for encryption-decryption: 312.02789521217346 sec
     -*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+
+KALYNA:
+    FOR 100 KB MESSAGE:
+        ENCRYPTION TIME ELAPSED 27.14988398551941 sec for (Nb=2, Nk=2, Nr=10)
+        ENCRYPTION TIME ELAPSED 38.37668514251709 sec for (Nb=2, Nk=4, Nr=14)
+        ENCRYPTION TIME ELAPSED 45.261677265167236 sec for (Nb=8, Nk=8, Nr=18)
+
 
 RC4:
     BENCHMARKING RC4 ON:
